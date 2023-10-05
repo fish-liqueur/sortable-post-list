@@ -23,4 +23,3 @@ npm run dev
 ```sh
 npm run test:unit
 ```
-# sortable-post-list

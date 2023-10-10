@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref, watch } from "vue"
+import { computed } from "vue"
 import PostItem from './PostItem.vue'
 import { useStorePosts} from "../../stores/storePosts"
 
@@ -10,7 +10,7 @@ const postOrder = computed(() => storePosts.order);
 
 <template>
     <div class="flex flex-col gap-4">
-        <transition-group name="slide" >
+        <transition-group name="slide">
             <PostItem
                 v-for="(orderItem, index) in postOrder"
                 :key="orderItem"

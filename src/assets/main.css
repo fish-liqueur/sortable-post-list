@@ -5,14 +5,14 @@
   height: 100vh;
  }
 
-.side-move,
-.side-enter-active,
-.side-leave-active {
+.slide-move,
+.slide-enter-active,
+.slide-leave-active {
     @apply transition-all duration-300 ease-in-out;
 }
 
-.side-enter-from,
-.side-leave-to {
+.slide-enter-from,
+.slide-leave-to {
     opacity: 0;
     transform: scaleY(0.5) translate(5rem, 0);
 }

@@ -4,7 +4,7 @@ import { type Post, Direction } from '@/types'
 import ChevronIcon from "@/components/ChevronIcon.vue";
 
 const props = defineProps<{
-    post?: Post;
+    post: Post;
     index: number;
     originalIndex: number;
     listLength: number;
